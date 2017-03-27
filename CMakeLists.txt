@@ -90,7 +90,7 @@ foreach(PARSER_SRC ${PARSERS_SRCS})
     # Otherwise using absolute paths like this is not the CMake way.
     # install(TARGETS ${PARSER_NAME} DESTINATION /usr/lib/nmea/)
 
-    install(TARGETS ${PARSER_NAME} DESTINATION lib)
+    install(TARGETS ${PARSER_NAME} DESTINATION lib/nmea/)
 endforeach()
 
 # Find parser headers as well.
